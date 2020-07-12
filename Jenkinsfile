@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'Madhusrt1Devops'
         CLUSTER_NAME = 'k8s-cluster'
         LOCATION = 'us-west2-c'
-        CREDENTIALS_ID = 'kubernetes'
+        CREDENTIALS_ID = 'K8'
     }
     stages {
         stage("Checkout code") {
